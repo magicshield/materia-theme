@@ -1,8 +1,8 @@
-.notification-button, .modal-dialog-button {
+.modal-dialog-button, .notification-button {
   color: rgba(0, 0, 0, 0.87);
   background-color: #ffffff;
   border-color: transparent;
-  box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24);
   text-shadow: none;
   icon-shadow: none;
   transition-duration: 100ms;
@@ -13,33 +13,33 @@
   border-radius: 4px;
 }
 
-.notification-button:focus, .modal-dialog-button:focus {
+.modal-dialog-button:focus, .notification-button:focus {
   color: rgba(0, 0, 0, 0.87);
   text-shadow: none;
   icon-shadow: none;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.345);
 }
 
-.notification-button:hover, .modal-dialog-button:hover, .notification-button:checked, .modal-dialog-button:checked {
+.modal-dialog-button:hover, .notification-button:hover, .modal-dialog-button:checked, .notification-button:checked {
   color: rgba(0, 0, 0, 0.87);
   background-color: #ffffff;
   border-color: transparent;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.345);
   text-shadow: none;
   icon-shadow: none;
 }
 
-.notification-button:active, .modal-dialog-button:active {
+.modal-dialog-button:active, .notification-button:active {
   color: rgba(0, 0, 0, 0.87);
   background-color: rgba(205, 205, 205, 0.9688);
   border-color: transparent;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.345);
   text-shadow: none;
   icon-shadow: none;
   transition-duration: 200ms;
 }
 
-.notification-button:insensitive, .modal-dialog-button:insensitive {
+.modal-dialog-button:insensitive, .notification-button:insensitive {
   color: rgba(0, 0, 0, 0.38);
   background-color: rgba(0, 0, 0, 0.08);
   border-color: transparent;
@@ -48,11 +48,11 @@
   icon-shadow: none;
 }
 
-.notification-icon-button, .keyboard-key, .sound-player StButton {
+.sound-player StButton, .keyboard-key, .notification-icon-button {
   color: rgba(0, 0, 0, 0.87);
   background-color: #ffffff;
   border-color: transparent;
-  box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24);
   text-shadow: none;
   icon-shadow: none;
   transition-duration: 100ms;
@@ -62,33 +62,33 @@
   border-radius: 4px;
 }
 
-.notification-icon-button:focus, .keyboard-key:focus, .sound-player StButton:focus {
+.sound-player StButton:focus, .keyboard-key:focus, .notification-icon-button:focus {
   color: rgba(0, 0, 0, 0.87);
   text-shadow: none;
   icon-shadow: none;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.345);
 }
 
-.notification-icon-button:hover, .keyboard-key:hover, .sound-player StButton:hover, .notification-icon-button:checked, .keyboard-key:checked, .sound-player StButton:checked {
+.sound-player StButton:hover, .keyboard-key:hover, .notification-icon-button:hover, .sound-player StButton:checked, .keyboard-key:checked, .notification-icon-button:checked {
   color: rgba(0, 0, 0, 0.87);
   background-color: #ffffff;
   border-color: transparent;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.345);
   text-shadow: none;
   icon-shadow: none;
 }
 
-.notification-icon-button:active, .keyboard-key:active, .sound-player StButton:active {
+.sound-player StButton:active, .keyboard-key:active, .notification-icon-button:active {
   color: rgba(0, 0, 0, 0.87);
   background-color: rgba(205, 205, 205, 0.9688);
   border-color: transparent;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.345);
   text-shadow: none;
   icon-shadow: none;
   transition-duration: 200ms;
 }
 
-.notification-icon-button:insensitive, .keyboard-key:insensitive, .sound-player StButton:insensitive {
+.sound-player StButton:insensitive, .keyboard-key:insensitive, .notification-icon-button:insensitive {
   color: rgba(0, 0, 0, 0.38);
   background-color: rgba(0, 0, 0, 0.08);
   border-color: transparent;
@@ -97,7 +97,7 @@
   icon-shadow: none;
 }
 
-.slider, .popup-slider-menu-item, .sound-player .slider {
+.sound-player .slider, .popup-slider-menu-item, .slider {
   height: 20px;
   color: #1a73e8;
   -slider-height: 2px;
@@ -109,7 +109,7 @@
   -slider-handle-radius: 6px;
 }
 
-.separator, .popup-separator-menu-item {
+.popup-separator-menu-item, .separator {
   -gradient-height: 1px;
   -gradient-start: rgba(0, 0, 0, 0.12);
   -gradient-end: rgba(0, 0, 0, 0.12);
@@ -117,7 +117,7 @@
   height: 1.5em;
 }
 
-#notification StEntry, .run-dialog-entry, #menu-search-entry {
+#menu-search-entry, .run-dialog-entry, #notification StEntry {
   transition-duration: 100ms;
   background-color: rgba(0, 0, 0, 0.04);
   border-color: transparent;
@@ -132,7 +132,7 @@
   selected-color: rgba(0, 0, 0, 0.87);
 }
 
-#notification StEntry:focus, .run-dialog-entry:focus, #menu-search-entry:focus {
+#menu-search-entry:focus, .run-dialog-entry:focus, #notification StEntry:focus {
   border-color: transparent;
   box-shadow: inset 0 -2px #1a73e8;
   padding: 0 8px;
@@ -140,40 +140,40 @@
   color: rgba(0, 0, 0, 0.87);
 }
 
-.desklet-with-borders, .desklet-with-borders-and-header, .desklet-header, .photoframe-box {
+.photoframe-box, .desklet-header, .desklet-with-borders-and-header, .desklet-with-borders {
   color: rgba(0, 0, 0, 0.87);
   border: none;
   padding: 12px;
-  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.5), 0 10px 5px rgba(0, 0, 0, 0.44);
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.44);
 }
 
-.calendar-change-month-back, .calendar-change-month-forward {
+.calendar-change-month-forward, .calendar-change-month-back {
   width: 16px;
   height: 16px;
   border-radius: 999px;
   transition-duration: 100ms;
 }
 
-.calendar-change-month-back:active, .calendar-change-month-forward:active {
+.calendar-change-month-forward:active, .calendar-change-month-back:active {
   background-color: rgba(0, 0, 0, 0.26);
 }
 
-.menu, .popup-combo-menu {
+.popup-combo-menu, .menu {
   background-color: #ffffff;
   border-radius: 4px;
   color: rgba(0, 0, 0, 0.87);
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.345);
 }
 
-.menu-application-button-label:ltr, .menu-category-button-label:ltr {
+.menu-category-button-label:ltr, .menu-application-button-label:ltr {
   padding-left: 4px;
 }
 
-.menu-application-button-label:rtl, .menu-category-button-label:rtl {
+.menu-category-button-label:rtl, .menu-application-button-label:rtl {
   padding-right: 4px;
 }
 
-.show-processes-dialog-subject, .mount-question-dialog-subject {
+.mount-question-dialog-subject, .show-processes-dialog-subject {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.87);
   padding-top: 10px;
@@ -181,18 +181,18 @@
   padding-bottom: 6px;
 }
 
-.show-processes-dialog-subject:rtl, .mount-question-dialog-subject:rtl {
+.mount-question-dialog-subject:rtl, .show-processes-dialog-subject:rtl {
   padding-left: 0;
   padding-right: 17px;
 }
 
-.show-processes-dialog-description, .mount-question-dialog-description {
+.mount-question-dialog-description, .show-processes-dialog-description {
   color: rgba(0, 0, 0, 0.87);
   padding-left: 17px;
   width: 28em;
 }
 
-.check-box StBin, .check-box:focus StBin {
+.check-box:focus StBin, .check-box StBin {
   width: 24px;
   height: 24px;
   padding: 4px;
@@ -200,7 +200,7 @@
   background-image: url(assets/checkbox-off.svg);
 }
 
-.radiobutton StBin, .radiobutton:focus StBin {
+.radiobutton:focus StBin, .radiobutton StBin {
   width: 20px;
   height: 20px;
   padding: 6px;
@@ -208,26 +208,26 @@
   background-image: url(assets/radiobutton-off.svg);
 }
 
-.tile-preview, .tile-hud {
+.tile-hud, .tile-preview {
   background-color: rgba(0, 0, 0, 0.3);
   border: 2px solid rgba(0, 0, 0, 0.12);
 }
 
-.tile-preview.snap, .tile-hud.snap {
+.tile-hud.snap, .tile-preview.snap {
   background-color: rgba(0, 0, 0, 0.3);
   border: 2px solid #1a73e8;
 }
 
-.overview-empty-placeholder, .info-osd, .workspace-osd, #LookingGlassDialog, .switcher-list, .modal-dialog, .osd-window {
+.osd-window, .modal-dialog, .switcher-list, #LookingGlassDialog, .workspace-osd, .info-osd, .overview-empty-placeholder {
   color: rgba(0, 0, 0, 0.87);
   background-color: #ffffff;
   border: none;
   border-radius: 4px;
   padding: 12px;
-  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.5), 0 10px 5px rgba(0, 0, 0, 0.44);
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.44);
 }
 
-.overview-empty-placeholder, .info-osd, .workspace-osd {
+.workspace-osd, .info-osd, .overview-empty-placeholder {
   font-size: 15pt;
   font-weight: 500;
   text-align: center;
@@ -953,7 +953,7 @@ StScrollView StScrollBar {
   margin-from-right-edge-of-screen: 20px;
   width: 34em;
   color: rgba(0, 0, 0, 0.87);
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.345);
 }
 
 #notification.multi-line-notification {
@@ -1211,7 +1211,7 @@ StScrollView StScrollBar {
   -boxpointer-gap: 5px;
   background-color: #f2f2f2;
   border-radius: 4px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.345);
 }
 
 .menu-favorites-box {
@@ -1370,7 +1370,7 @@ StScrollView StScrollBar {
   padding: 10px 15px;
   spacing: 1em;
   color: rgba(0, 0, 0, 0.87);
-  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.5), 0 10px 5px rgba(0, 0, 0, 0.44);
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.44);
 }
 
 .grouped-window-list-thumbnail-label {
@@ -1645,7 +1645,7 @@ StScrollView StScrollBar {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87);
   border: none;
-  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.5), 0 10px 5px rgba(0, 0, 0, 0.44);
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.44);
   padding: 12px;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 4px;
